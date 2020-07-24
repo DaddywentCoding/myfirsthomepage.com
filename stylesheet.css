@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #efefef;
+    color: rgb(3, 13, 22);
+    padding: 20px 10px;
+             
+}
+.container {
+    width: 750px;
+    align-items: center;
+    margin:auto;
+    display: flex;
+    
+}
+.container h1 {
+    font-weight: normal;
+    font-size: 40px;
+    margin: 0;
+}
+.twitter {
+    font-size: 20px;
+}
+
+img {
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    margin-left: 20px;
+    border-color: rgb(255, 255, 255);
+
+
+}
+.info {
+    display: flex;
+    background-color: rgb(200, 223, 217);
+    margin-top: 5px; 
+}
+.info p {
+    margin-left: 5px;
+    font-size: 20px;
+}
+footer {
+    text-align: center;
+}
