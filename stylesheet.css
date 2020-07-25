@@ -9,16 +9,14 @@ body {
              
 }
 .container {
-    width: 760px;
-    align-items: center;
-    margin:auto;
-    display: flex;
-    
+    width: 100%;
+    text-align: center;      
 }
 .container h1 {
+    display: inline-block;
     font-weight: normal;
     font-size: 40px;
-    margin: 0;
+    
 }
 .twitter {
     text-decoration: none;
@@ -26,7 +24,7 @@ body {
     font-size: 20px;
     background-color: rgb(107, 155, 209);
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 6px;
     
 }
 
@@ -36,6 +34,7 @@ img {
     border-style: solid;
     margin-left: 20px;
     border-color: rgb(255, 255, 255);
+    margin: 0 auto;
     
 }
 .info {
@@ -49,4 +48,19 @@ img {
 }
 footer {
     text-align: center;
+}
+@media (max-width: 670px) {    
+    .container h1 {
+        font-size: 39px; margin-bottom: 10px;
+        display: block;    
+    }
+    .twitter {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    .info {
+        flex-direction: column;
+    }
+    
+
 }
